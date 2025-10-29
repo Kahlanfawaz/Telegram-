@@ -21,6 +21,27 @@ const systemMessage = { role: "system", content: "أنت بوت ذكاء اصط�
 
 console.log('Telegram Bot is running...');
 
+// تسجيل قائمة الأوامر في تليجرام
+const setCommands = async () => {
+    const commands = [
+        { command: 'start', description: 'بدء المحادثة والترحيب' },
+        { command: 'help', description: 'عرض قائمة الأوامر المتاحة' },
+        { command: 'newchat', description: 'مسح سجل المحادثة وبدء محادثة جديدة' },
+        { command: 'summarize', description: 'تلخيص النص الذي يليه (مثال: /summarize نص طويل)' },
+        { command: 'translate', description: 'ترجمة النص (مثال: /translate English مرحبا)' },
+        { command: 'image', description: 'توليد صورة (مثال: /image قطة تطير في الفضاء)' },
+    ];
+
+    try {
+        await bot.setMyCommands(commands);
+        console.log('Telegram commands set successfully.');
+    } catch (error) {
+        console.error('Failed to set Telegram commands:', error);
+    }
+};
+
+setCommands();
+
 // معالجة أمر /start
 bot.onText(/\/start/, (msg) => {
   const chatId = msg.chat.id;
