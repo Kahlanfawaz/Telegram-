@@ -1,0 +1,13 @@
+nohup: ignoring input
+2025-08-16 12:46:06,380 - __main__ - INFO - ✅ تم تهيئة Gemini AI بنجاح مع إعدادات متنوعة للإبداع
+2025-08-16 12:46:06,514 - __main__ - INFO - 🔧 تهيئة فوازبشر المتنوع...
+2025-08-16 12:46:06,515 - __main__ - INFO - ✅ تم تهيئة فوازبشر المتنوع بنجاح
+2025-08-16 12:46:06,515 - __main__ - INFO - 🌈 بدء تشغيل فوازبشر المتنوع - البوت الذكي المتجدد مع Gemini AI...
+2025-08-16 12:46:06,515 - __main__ - INFO - 🤖 النماذج المستخدمة: 4 نماذج متنوعة
+2025-08-16 12:46:06,515 - __main__ - INFO - 📊 مستوى التسجيل: INFO
+2025-08-16 12:46:06,515 - __main__ - INFO - ⚡ المميزات الفائقة: تنوع لا محدود، تجنب التكرار، إبداع متجدد
+2025-08-16 12:46:06,866 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8216411891:AAFEcc7UfoPSLK6grV2QFbx7TxPz2Y0ouMw/getMe "HTTP/1.1 200 OK"
+2025-08-16 12:46:06,867 - __main__ - INFO - 🧹 تم تنظيف الكاش والسياق والتاريخ
+2025-08-16 12:46:06,984 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8216411891:AAFEcc7UfoPSLK6grV2QFbx7TxPz2Y0ouMw/deleteWebhook "HTTP/1.1 200 OK"
+2025-08-16 12:46:06,985 - telegram.ext.Application - INFO - Application started
+2025-08-16 12:46:57,336 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8216411891:AAFEcc7UfoPSLK6grV2QFbx7TxPz2Y0ouMw/getUpdates "HTTP/1.1 200 OK"
